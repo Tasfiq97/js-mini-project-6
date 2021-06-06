@@ -12,8 +12,11 @@ let numGuess = Math.floor(Math.random() * 100);
 
 startGame.addEventListener("click", function () {
   // console.log("click")
+  
   let getVal = inputNum.value;
-  // console.log(getVal)
+ if(getVal==""){
+   alert("guess number first")
+ }else{
   let alertNum = document.createElement("p");
   numCorr.appendChild(alertNum);
 
@@ -39,6 +42,7 @@ startGame.addEventListener("click", function () {
     inputNum.value = "";
     numberHis.innerHTML = "";
   });
+ }
 });
 
 //the random number function//
