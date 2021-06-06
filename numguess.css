@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background: #227093;
+}
+
+.full-game .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.full-game .input-result p {
+  font-size: 1.3rem;
+  background: #ff7f50;
+  padding: 0.6rem 1rem;
+}
+
+.full-game .input-show p {
+  margin-top: 9rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+/*# sourceMappingURL=numguess.css.map */

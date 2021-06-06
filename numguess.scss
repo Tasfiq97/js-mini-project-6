@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+  background: #227093;
+}
+.full-game {
+  .btns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .input-result {
+    p {
+      font-size: 1.3rem;
+      background: #ff7f50;
+      padding: 0.6rem 1rem;
+    }
+  }
+  .input-show {
+    p {
+      margin-top: 9rem;
+
+      font-size: 1.3rem;
+      text-align: center;
+    }
+  }
+}
